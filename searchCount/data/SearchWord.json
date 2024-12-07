@@ -1,0 +1,13 @@
+[
+  {
+    "caseName": "输入关键字王娇，输出查询结果中顶级域名出现的次数",
+    "requ": {
+      "keyWord": "王娇"
+    }
+  },{
+    "caseName": "输入关键字Selenuim，输出查询结果中顶级域名出现的次数",
+    "requ": {
+      "keyWord": "Selenium"
+    }
+  }
+]

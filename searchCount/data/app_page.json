@@ -1,0 +1,26 @@
+[
+  {
+    "caseName": "App第一个页面，期望包含一个文本，文本包含Hello",
+    "locate_element": {
+      "ele_locate_style": "XPATH",
+      "ele_locate_value": "//*[contains(@text,'Hello')]"
+    },
+    "operate_element": {
+      "ele_locate_style": "ID",
+      "ele_locate_value": "cn.ianzhang.android:id/button_first"
+    },
+    "expect": "Hello"
+  },
+  {
+    "caseName": "App第二个页面，期望：包含一个文本，文本为Second",
+    "locate_element": {
+      "ele_locate_style": "CLASS",
+      "ele_locate_value": "android.widget.TextView"
+    },
+    "operate_element": {
+      "ele_locate_style": "ID",
+      "ele_locate_value": "cn.ianzhang.android:id/button_second"
+    },
+    "expect": "Second"
+  }
+]
